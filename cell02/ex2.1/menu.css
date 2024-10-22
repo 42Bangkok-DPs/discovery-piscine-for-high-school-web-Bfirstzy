@@ -1,0 +1,20 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color : #A7C1D9;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #F2913D;
+}
+select {
+    width: 200px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solod #ccc;
+    border-radius: 5px;
+    background-color: #F2AE72;
+}
+select:hover {
+    border-color: #2E3E40;
+}
