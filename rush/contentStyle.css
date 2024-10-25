@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Staatliches&display=swap');
+
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.left-clearance,
+.right-clearance {
+    flex: 0.5;
+    background-color: transparent;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    background-color: #334756;
+    color: #ffffff;
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .left-clearance,
+    .right-clearance {
+        display: none;
+    }
+}
+
+
+.profile {
+    display: flex;
+
+    align-items: flex-start;
+
+    color: #ffffff;
+    margin-top: 7vmin;
+}
+
+#profile-pic {
+    width: 40vmin;
+    height: 40vmin;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    width: 100%;
+    
+
+
+}
+
+.profile h1 {
+    font-size: 6vmin;
+    font-family: 'Staatliches';
+    margin: 0;
+
+}
+
+.profile p {
+    font-size: 2.1vmin;
+    font-family: 'Oxygen';
+    margin-top: 2vmin;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    #profile-pic {
+        margin: 5vmin auto;
+
+    }
+
+    .profile-content {
+        text-align: center;
+
+    }
+
+    .contact-list {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-list li {
+        margin: 1vh 0;
+    }
+
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.contact-list {
+    list-style-type: none;
+
+    display: flex;
+
+    padding: 0;
+
+    margin: 2vmin 0;
+
+    font-family: 'Staatliches';
+
+    flex-wrap: wrap;
+}
+
+.contact-list li {
+    margin-right: 2vmin;
+
+}
+
+.contact-list a {
+    text-decoration: none;
+
+    color: #ffffff;
+
+    font-size: 1.5rem;
+
+}
+
+.contact-list a:hover {
+    color: #FF4C29;
+
+}
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #2C394B;
+
+    color: #ffffff;
+
+    padding: 1em 0;
+
+    position: relative;
+
+    bottom: 0;
+
+    height: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-end;
+
+}
+
+.footer-list {
+    list-style-type: none;
+
+    display: flex;
+
+    padding: 0;
+
+    margin: 0;
+
+    justify-content: flex-end;
+
+    font-family: 'Oxygen';
+    flex-wrap: wrap;
+
+}
+
+.footer-list li {
+    margin-right: 2vmin;
+
+}
+
+.footer-list a {
+    text-decoration: none;
+
+    color: #ffffff;
+
+    font-size: 1.5vmin;
+
+}
+
+.footer-list a:hover {
+    color: #FF4C29;
+
+}
+
+.footer p {
+    font-family: 'Oxygen';
+    font-size: 1.5vmin;
+    text-align: right;
+    margin-right: 2vmin;
+
+}
+
+
+
+.hall-section {
+    margin-top: 5vh;
+    padding: 2vh 5vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hall-section h2 {
+    font-family: 'Staatliches';
+    font-size: 4vw;
+    margin-bottom: 2vh;
+}
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vh;
+}
+
+.certificate-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
